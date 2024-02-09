@@ -23,7 +23,7 @@ body {
 }
 
 .item-image img {
-    max-width: 99%;
+    max-width: 390%;
     height: auto;
 }
 
@@ -33,7 +33,7 @@ body {
     flex-direction: column;
     justify-content: flex-start; /* Alterado para alinhar a descrição no topo */
     align-items: center;
-    padding-left: 20px;
+    padding-left: 650px;
     font-family: Protest Riot;
     font-size: large;
 }
@@ -44,7 +44,7 @@ body {
     margin-bottom: 1px;
     font-family: Protest Riot;
     color: var(--cor);
-    background-color: #000000;
+    
 }
 
 .item-description-container {
@@ -59,7 +59,7 @@ body {
     line-height: 1.5;
     font-family: Protest Riot;
     text-align: center;
-    background-color: #2e2c36c7;
+    
    
 }
 
@@ -85,7 +85,7 @@ body {
     line-height: 1.5;
     font-family: Protest Riot;
     text-align: center;
-    background-color: #080808be;
+    
    
 }
 
