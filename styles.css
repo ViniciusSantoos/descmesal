@@ -1,0 +1,96 @@
+:root {
+    --cor: #9c9aeb;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(images/backgrr.jpg);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px 100px -90px; 
+    padding: 0px;
+    display: flex;
+}
+
+.item-image {
+    flex: 1;
+    text-align: left; /* Alterado para centralizar a imagem */
+}
+
+.item-image img {
+    max-width: 99%;
+    height: auto;
+}
+
+.item-details-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alterado para alinhar a descrição no topo */
+    align-items: center;
+    padding-left: 20px;
+    font-family: Protest Riot;
+    font-size: large;
+}
+
+.item-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1px;
+    font-family: Protest Riot;
+    color: var(--cor);
+    background-color: #000000;
+}
+
+.item-description-container {
+    text-align: right; /* Centraliza o texto da descrição */
+    font-family: Protest Riot;
+    font-size: 30px;
+    color: var(--cor);
+}
+
+.item-description {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: Protest Riot;
+    text-align: center;
+    background-color: #2e2c36c7;
+   
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px; /* Espaçamento acima do botão para separá-lo da descrição */
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff; /* Cor de fundo do botão */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave na mudança de cor de fundo */
+    font-family: inter;
+    font-size: large;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Altera a cor de fundo ao passar o mouse sobre o botão */
+}
+
+.item-description1 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: Protest Riot;
+    text-align: center;
+    background-color: #080808be;
+   
+}
+
+.qnt{
+    background-color: #ff0000af;   
+    color: rgb(0, 0, 0); 
+    font-size: 24px;
+}
